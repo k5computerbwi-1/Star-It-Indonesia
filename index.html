@@ -1,39 +1,95 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Star IT Indonesia - Servis Laptop</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Star IT Indonesia</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #00468b;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    header p {
+      margin-top: 10px;
+      font-size: 1.2em;
+    }
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+    .card {
+      background-color: white;
+      border-radius: 10px;
+      padding: 25px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+      margin-bottom: 20px;
+    }
+    h2 {
+      color: #00468b;
+      margin-bottom: 15px;
+    }
+    ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+    .contact-info i {
+      margin-right: 8px;
+      color: #00468b;
+    }
+    .contact-info p {
+      margin: 8px 0;
+    }
+    a {
+      color: #00468b;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
+
   <header>
-    <h1>⭐ Star IT Indonesia</h1>
+    <h1>Star IT Indonesia</h1>
     <p>Solusi Cepat & Terpercaya untuk Laptop Anda</p>
   </header>
 
-  <section class="services">
-    <h2>Layanan Kami</h2>
-    <ul>
-      <li><i class="fas fa-tools"></i> Perbaikan/Penggantian hardware (keyboard, layar, baterai, dll)</li>
-      <li><i class="fas fa-sync-alt"></i> Instalasi ulang Windows / macOS</li>
-      <li><i class="fas fa-memory"></i> Upgrade RAM & SSD</li>
-      <li><i class="fas fa-brush"></i> Pembersihan & perawatan berkala</li>
-      <li><i class="fas fa-shield-virus"></i> Perbaikan software (driver, virus, dll)</li>
-      <li><i class="fas fa-truck"></i> Jasa antar jemput unit</li>
-    </ul>
-  </section>
+  <div class="container">
 
-  <section class="contact">
-    <h2>Hubungi Kami</h2>
-    <p>📍 <strong>Alamat:</strong> Jl. Penggayoman no 27, Makassar</p>
-    <p>📞 <strong>Telp/WA:</strong> <a class="wa-btn" href="https://wa.me/6285183099400" target="_blank"><i class="fab fa-whatsapp"></i> Chat WhatsApp</a></p>
-    <p>📧 <strong>Email:</strong> <a href="mailto:info@starit.my.id">info@starit.my.id</a></p>
-  </section>
+    <div class="card">
+      <h2>Layanan Kami</h2>
+      <ul>
+        <li>Perbaikan / Penggantian hardware (keyboard, layar, baterai, dll)</li>
+        <li>Instalasi ulang Windows / macOS</li>
+        <li>Upgrade RAM & SSD</li>
+        <li>Pembersihan & perawatan berkala</li>
+        <li>Perbaikan software (driver, virus, dll)</li>
+        <li>Jasa antar jemput unit</li>
+      </ul>
+    </div>
 
-  <footer>
-    <p>&copy; 2025 Star IT Indonesia. All rights reserved.</p>
-  </footer>
+    <div class="card contact-info">
+      <h2>Hubungi Kami</h2>
+      <p><i>📍</i>Alamat: Jl. Penggayoman no 27, Makassar</p>
+      <p><i>📞</i>Telp/WA: <a href="https://wa.me/6285183099400" target="_blank">+62 851-8309-9400</a></p>
+      <p><i>📧</i>Email: <a href="mailto:info@starit.my.id">info@starit.my.id</a></p>
+    </div>
+
+  </div>
+
 </body>
 </html>
